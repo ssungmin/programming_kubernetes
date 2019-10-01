@@ -9,3 +9,5 @@
 
 ## How I understand Kubernetes
 
+<img width="550" alt="k8s-api-server-queues" src="https://user-images.githubusercontent.com/33475309/65926992-eac83d80-e432-11e9-95fb-e9be27a00775.png">
+
