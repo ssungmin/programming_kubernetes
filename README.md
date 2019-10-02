@@ -32,5 +32,5 @@ pod, err := clientset.CoreV1().Pods("book").Get("example", metav1.GetOptions{})
 * import clientcmd 는 kubeconfig를 읽고 parsing 하기 위해 사용되었음
 * import kubernets 는 kubernetes resource 를 위해 
 
-pod, err := clientset.CoreV1().Pods("book").Get("example", metav1.GetOptions{})
-The Get call sends an HTTP GET request to /api/v1/namespaces/book/pods/example on the server
+* pod, err := clientset.CoreV1().Pods("book").Get("example", metav1.GetOptions{})
+* The Get call sends an HTTP GET request to /api/v1/namespaces/book/pods/example on the server
